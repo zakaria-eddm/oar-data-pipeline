@@ -1,0 +1,26 @@
+# Dossiers de données générés
+data/
+logs/
+
+# Environnement virtuel Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de données temporaires
+*.csv
+*.json
+*.png
+*.log
