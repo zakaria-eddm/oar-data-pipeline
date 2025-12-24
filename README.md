@@ -1,11 +1,11 @@
-# 🏭 OAR Data Science Pipeline
+#  OAR Data Science Pipeline
 
 Pipeline de données complet pour l'analyse du registre Open Apparel Registry (OAR).
 
-## 📋 Description
+##  Description
 Ce projet implémente un pipeline ETL (Extract, Transform, Load) complet pour analyser les données de la chaîne d'approvisionnement de l'industrie textile, en suivant les spécifications du test technique CommonShare.
 
-## 🏗️ Architecture du Pipeline
+##  Architecture du Pipeline
 Le pipeline exécute séquentiellement 7 phases :
 1. **Extraction** (`scrape_oar.py`) - Téléchargement des données OAR
 2. **Nettoyage entreprises** (`clean_companies.py`) - Normalisation et standardisation
@@ -15,7 +15,7 @@ Le pipeline exécute séquentiellement 7 phases :
 6. **IA** (`ai_module.py`) - Analyse de durabilité (règle-based)
 7. **Export** (`export_final.py`) - Génération de rapports finaux
 
-## 🚀 Installation et Exécution
+##  Installation et Exécution
 
 ### Prérequis
 - Python 3.8+
